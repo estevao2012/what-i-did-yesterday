@@ -1,0 +1,2 @@
+class RememberNote < ApplicationRecord
+end

@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: what_i_did_yesterday_development
+  username: root
+  password: root
+  host: localhost
+  port: 5432

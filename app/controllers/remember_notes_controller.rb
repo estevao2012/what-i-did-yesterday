@@ -38,7 +38,7 @@ class RememberNotesController < ApplicationController
 
     respond_to do |format|
       if @remember_note.save
-        format.html { redirect_to @remember_note, notice: 'Remember note was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Remember note was successfully created.' }
         format.json { render :show, status: :created, location: @remember_note }
       else
         format.html { render :new }
